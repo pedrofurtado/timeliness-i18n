@@ -10,11 +10,11 @@ gem 'timeliness-i18n'
 
 And then execute:
 
-$ bundle
+    $ bundle
 
 Or install it yourself as:
 
-$ gem install timeliness-i18n
+    $ gem install timeliness-i18n
 
 ## License
 
