@@ -21,5 +21,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'timeliness'
 
   spec.add_development_dependency 'bundler'
-  spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'rake'
 end
