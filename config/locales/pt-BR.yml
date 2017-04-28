@@ -1,16 +1,16 @@
 pt-BR:
   errors:
     messages:
-      invalid_date: 'is not a valid date@@I18nI18n'
-      invalid_time: 'is not a valid time@@I18nI18n'
-      invalid_datetime: 'is not a valid datetime@@I18nI18n'
-      is_at: 'must be at %{restriction}@@I18nI18n'
-      before: 'must be before %{restriction}@@I18nI18n'
-      on_or_before: 'must be on or before %{restriction}@@I18nI18n'
-      after: 'must be after %{restriction}@@I18nI18n'
-      on_or_after: 'must be on or after %{restriction}@@I18nI18n'
+      invalid_date: 'não é uma data válida'
+      invalid_time: 'não é um horário válido'
+      invalid_datetime: 'não é um horário com data válido'
+      is_at: 'deve ser em %{restriction}'
+      before: 'deve ser antes de %{restriction}'
+      on_or_before: 'deve ser antes ou em %{restriction}'
+      after: 'deve ser após de %{restriction}'
+      on_or_after: 'deve ser após ou em %{restriction}'
   validates_timeliness:
     error_value_formats:
-      date: '%Y-%m-%d@@I18nI18n'
-      time: '%H:%M:%S@@I18nI18n'
-      datetime: '%Y-%m-%d %H:%M:%S@@I18nI18n'
+      date: '%d/%m/%Y'
+      time: '%H:%M:%S'
+      datetime: '%d/%m/%Y %H:%M:%S'

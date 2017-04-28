@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'timeliness-i18n'
   spec.version       = TimelinessI18n::VERSION
   spec.authors       = ['Pedro Furtado']
-  spec.email         = ['pfelipe@lbv.org.br']
+  spec.email         = ['pedro.felipe.furtado@usp.br']
 
   spec.summary       = %q{Translations for the timeliness and validates_timeliness gem.}
   spec.description   = %q{Translations for the timeliness and validates_timeliness gem.}
