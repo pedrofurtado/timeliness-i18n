@@ -19,3 +19,7 @@ And then execute:
 Or install it yourself as:
 
     $ gem install timeliness-i18n
+
+## Something wrong with the translations? Contribute it!
+
+Send a pull request! Fix the translations or create it for some missing locale. Help us to improves the quality of translations!
