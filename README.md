@@ -1,5 +1,9 @@
 # timeliness-i18n
 
+[![Gem Version](https://badge.fury.io/rb/timeliness-i18n.svg)](https://badge.fury.io/rb/timeliness-i18n)
+[![Gem](https://img.shields.io/gem/dt/timeliness-i18n.svg)]()
+[![license](https://img.shields.io/github/license/pedrofurtado/timeliness-i18n.svg)]()
+
 ## Installation
 
 Add this line to your application's Gemfile:
