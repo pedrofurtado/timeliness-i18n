@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['pedro.felipe.furtado@usp.br']
 
   spec.summary       = %q{Translations for the timeliness and validates_timeliness gem.}
-  spec.description   = %q{Translations for the timeliness and validates_timeliness gem.}
+  spec.description   = spec.summary
   spec.homepage      = 'https://github.com/pedrofurtado/timeliness-i18n'
   spec.license       = 'MIT'
 
