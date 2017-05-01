@@ -1,0 +1,16 @@
+it:
+  errors:
+    messages:
+      invalid_date: 'non è una data valida'
+      invalid_time: 'non è un momento valido'
+      invalid_datetime: 'non è una data valida'
+      is_at: 'deve essere a %{restriction}'
+      before: 'deve essere prima %{restriction}'
+      on_or_before: 'deve essere acceso o prima %{restriction}'
+      after: 'deve essere dopo %{restriction}'
+      on_or_after: 'deve essere su o dopo %{restriction}'
+  validates_timeliness:
+    error_value_formats:
+      date: '%d/%m/%Y'
+      time: '%H:%M:%S'
+      datetime: '%Y-%m-%d %H:%M:%S'
