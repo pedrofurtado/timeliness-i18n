@@ -19,7 +19,3 @@ And then execute:
 Or install it yourself as:
 
     $ gem install timeliness-i18n
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
