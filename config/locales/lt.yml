@@ -1,0 +1,16 @@
+en:
+  errors:
+    messages:
+      invalid_date: 'bloga data'
+      invalid_time: 'blogas laikas'
+      invalid_datetime: 'neteisingas datetime formatas'
+      is_at: 'privalo būti %{restriction}'
+      before: 'privalo būti prieš %{restriction}'
+      on_or_before: 'privalo būti ant arba prieš %{restriction}'
+      after: 'privalo būti po %{restriction}'
+      on_or_after: 'privalo būti ant arba po %{restriction}'
+  validates_timeliness:
+    error_value_formats:
+      date: '%Y-%m-%d'
+      time: '%H:%M:%S'
+      datetime: '%Y-%m-%d %H:%M:%S'
