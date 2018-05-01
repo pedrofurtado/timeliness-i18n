@@ -1,0 +1,16 @@
+sv:
+  errors:
+    messages:
+      invalid_date: 'är inte ett giltigt datum'
+      invalid_time: 'är inte en giltig tid'
+      invalid_datetime: 'är inte ett giltigt datum/tid'
+      is_at: 'måste vara på %{restriction}'
+      before: 'måste vara innan %{restriction}'
+      on_or_before: 'måste vara på eller innan %{restriction}'
+      after: 'måste vara efter %{restriction}'
+      on_or_after: 'måste vara på eller efter %{restriction}'
+  validates_timeliness:
+    error_value_formats:
+      date: '%Y-%m-%d'
+      time: '%H:%M:%S'
+      datetime: '%Y-%m-%d %H:%M:%S'
