@@ -1,0 +1,17 @@
+fi:
+  errors:
+    messages:
+      invalid_date: 'ei ole kelvollinen päivämäärä'
+      invalid_time: 'ei ole kelvollinen kellonaika'
+      invalid_datetime: 'ei ole kelvollinen aikaleima'
+      is_at: 'täytyy olla %{restriction}'
+      before: 'täytyy olla ennen %{restriction}'
+      on_or_before: 'täytyy olla %{restriction} tai aiemmin'
+      after: 'täytyy olla %{restriction} jälkeen'
+      on_or_after: 'täytyy olla %{restriction} tai myöhemmin'
+  validates_timeliness:
+    error_value_formats:
+      date: '%d.%m.%Y'
+      time: '%H:%M:%S'
+      datetime: '%d.%m.%Y %H:%M:%S'
+
