@@ -22,6 +22,8 @@ Or install it yourself as:
 
     $ gem install timeliness-i18n
 
+That's all! Now, you just need to set the locale of your application and see the messages translated automatically.
+
 ## Something wrong with the translations? Contribute it!
 
 Send a pull request! Fix the translations or create it for some missing locale. Help us to improves the quality of translations!
