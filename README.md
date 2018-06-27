@@ -4,6 +4,8 @@
 [![Gem](https://img.shields.io/gem/dt/timeliness-i18n.svg)]()
 [![license](https://img.shields.io/github/license/pedrofurtado/timeliness-i18n.svg)]()
 
+Translations for [timeliness](https://github.com/adzap/timeliness)  and [validates_timeliness](https://github.com/adzap/validates_timeliness) gem.
+
 ## Installation
 
 Add this line to your application's Gemfile:
