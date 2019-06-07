@@ -1,0 +1,16 @@
+en:
+  errors:
+    messages:
+      invalid_date: 'er ikke en gyldig dato'
+      invalid_time: 'er ikke en gyldig tid'
+      invalid_datetime: 'er ikke en gyldig dato med tid'
+      is_at: 'skal være d. %{restriction}'
+      before: 'skal være før %{restriction}'
+      on_or_before: 'skal være d. eller før %{restriction}'
+      after: 'skal være efter %{restriction}'
+      on_or_after: 'skal være d. eller after %{restriction}'
+  validates_timeliness:
+    error_value_formats:
+      date: '%Y-%m-%d'
+      time: '%H:%M:%S'
+      datetime: '%Y-%m-%d %H:%M:%S'
