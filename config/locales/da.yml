@@ -8,7 +8,7 @@ en:
       before: 'skal være før %{restriction}'
       on_or_before: 'skal være d. eller før %{restriction}'
       after: 'skal være efter %{restriction}'
-      on_or_after: 'skal være d. eller after %{restriction}'
+      on_or_after: 'skal være d. eller efter %{restriction}'
   validates_timeliness:
     error_value_formats:
       date: '%Y-%m-%d'
