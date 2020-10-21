@@ -1,0 +1,16 @@
+tr:
+  errors:
+    messages:
+      invalid_date: 'geçerli bir tarih değil'
+      invalid_time: 'geçerli bir saat değil'
+      invalid_datetime: 'geçerli bir tarih/saat değil'
+      is_at: '%{restriction} olmalıdır'
+      before: '%{restriction} öncesi olmalıdır'
+      on_or_before: '%{restriction} ya da öncesi yada eşit'
+      after: '%{restriction} sonrası olmalıdır'
+      on_or_after: '%{restriction} ya da sonrası olmalıdır'
+  validates_timeliness:
+    error_value_formats:
+      date: '%d.%m.%Y'
+      time: '%H:%M:%S'
+      datetime: '%d.%m.%Y %H:%M:%S'
